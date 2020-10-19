@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Flask flask-compose.py" type="Python.FlaskServer">
+    <option name="additionalOptions" value="--host=0.0.0.0" />
+    <option name="flaskDebug" value="true" />
+    <module name="flask-compose" />
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="FLASK_APP" value="flask-compose.py" />
+    </envs>
+    <option name="SDK_HOME" value="docker-compose://[$PROJECT_DIR$/docker-compose.yml]:web/python" />
+    <option name="WORKING_DIRECTORY" value="" />
+    <option name="IS_MODULE_SDK" value="false" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+    <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+    <option name="launchJavascriptDebuger" value="false" />
+    <method v="2" />
+  </configuration>
+</component>
